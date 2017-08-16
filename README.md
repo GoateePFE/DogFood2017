@@ -11,6 +11,8 @@ Mr. Ashley McGlone
 
 [Install instructions for PowerShell Core on your favorite platform](http://github.com/powershell/powershell)
 
+[Cross-platform PowerShell demos on the official GitHub site](https://github.com/PowerShell/PowerShell/tree/master/demos)
+
 [Visual Studio Code](https://code.visualstudio.com)
 
 [Walk-through: Getting Started with PowerShell Core on Windows, Mac, and Linux](http://aka.ms/xplatps)
