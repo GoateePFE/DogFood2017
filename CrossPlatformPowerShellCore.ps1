@@ -86,6 +86,12 @@ $d.Year
 $d.AddDays(-14)
 
 break
+
+((Invoke-WebRequest -Uri 'http://jsonplaceholder.typicode.com/posts?userid=1' -Method Get).Content |
+    ConvertFrom-Json) | 
+    Where-Object title -like "*magni*"
+
+break
 Function Start-StarWarsScroll {
 param(
     [ValidateRange(1,7)]
