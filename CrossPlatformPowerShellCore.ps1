@@ -87,11 +87,30 @@ $d.AddDays(-14)
 
 break
 
+Get-Command -Noun Job
+Start-Job -ScriptBlock {Get-Process}
+Get-ChildItem -Recurse&
+cat /etc/passwd&
+Get-Job
+Receive-Job 1
+Get-Job
+Remove-Job 1
+Get-Job
+Stop-Job 3
+Get-Job
+Receive-Job 3 -Keep
+Get-Job
+Get-Job | Remove-Job
+
+
+break
+
 ((Invoke-WebRequest -Uri 'http://jsonplaceholder.typicode.com/posts?userid=1' -Method Get).Content |
     ConvertFrom-Json) | 
     Where-Object title -like "*magni*"
 
 break
+
 Function Start-StarWarsScroll {
 param(
     [ValidateRange(1,7)]
