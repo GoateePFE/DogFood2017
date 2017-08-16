@@ -1,9 +1,91 @@
 
-Get-Process | Sort-Object CPU -Descending | Select-Object -First 5
+break
 
+# Notice PSEdition, OS, Platform
+$PSVersionTable
+
+# Built-in variables for OS detection
+Get-Variable Is*
+
+# Which commands do I have here?
+Get-Command
+
+# Case sensitivity
+cat /etc/ssh/sshd_config
+cat /ETC/SSH/sshd_config
+Get-Item /etc/ssh/sshd_config
+Get-Item /ETC/SSH/sshd_config
+
+# Slashes
+Get-Item \ETC\SSH\sshd_config  # Eeewwwww! Slash and case confusion! It works!get
+dir ~
+dir $HOME
+dir ~/Documents
+dir ~\Documents
+dir /etc/
+ls /etc/
+cat /etc/networks
+Get-Content \etc\networks
+
+# Aliases
+Get-Alias
+Get-ChildItem
+dir
+ls
+
+Get-Help dir
+man ls
+
+cd /
+cd ~
+cd \
+cd $HOME
 
 break
 
+cat /etc/passwd
+Get-Content /etc/passwd
+
+cat /etc/passwd |
+    ConvertFrom-Csv -Delimiter ':' -Header Name,Passwd,UID,GID,Description,Home,Shell |
+    Sort-Object Name | Format-Table
+
+top
+Get-Process | Sort-Object CPU -Descending | Select-Object -First 5
+
+ps aux
+ps aux | grep code
+ps aux | Select-String -Pattern "code"
+Get-Process *code*
+
+tail -f /etc/aliases    # CTRL C
+Get-Content -Path /etc/aliases -Tail 10 -Wait
+
+ps aux | wc
+ps aux | Measure-Object -Line -Word -Character
+Get-Process | Measure-Object -Line -Word -Character
+Get-Process | Measure-Object
+
+break
+
+Get-Module
+
+Get-Module -ListAvailable
+
+break
+
+[math]::PI
+
+[math]::Pow(2,8)
+
+[datetime]'12/25/17'
+
+$d = Get-Date
+$d | Get-Member
+$d.Year
+$d.AddDays(-14)
+
+break
 Function Start-StarWarsScroll {
 param(
     [ValidateRange(1,7)]
