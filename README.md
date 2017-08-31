@@ -1,5 +1,8 @@
 # DogFood2017
-Presentation content and demos for DogFood 2017
+
+# What?! See PowerShell and Visual Studio Code on Windows, Mac, and Linux
+
+Ashley McGlone will live demo writing and running PowerShell scripting on Windows, Mac, and Linux. He will demonstrate remote interactive sessions between the OSes. Learn how to get PowerShell running in your open source, cross-platform world. A PowerShell thrill show!
 
 # Presenter
 Mr. Ashley McGlone
