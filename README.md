@@ -4,10 +4,17 @@ Presentation content and demos for DogFood 2017
 # Presenter
 Mr. Ashley McGlone
 
-[@GoateePFE](https://twitter.com/GoateePFE)
+Former Microsoft Premier Field Engineer, now at Tanium
 
+Twitter: [@GoateePFE](https://twitter.com/GoateePFE)
+
+Home of this README:
+
+    https://github.com/GoateePFE/DogFood2017
 
 # Resources
+
+[Big PowerShell open source announcement blog post from last year and the famous Satya picture with Windows <3 Linux](https://azure.microsoft.com/en-us/blog/powershell-is-open-sourced-and-is-available-on-linux/)
 
 [Install instructions for PowerShell Core on your favorite platform](http://github.com/powershell/powershell)
 
@@ -26,3 +33,7 @@ Mr. Ashley McGlone
 [Jessica Deen - Bash on Windows](http://github.com/jldeen/SVCC-AzureMgmtxplat)
 
 [Manage Azure and AWS from Windows/Mac/Linux with PowerShell](http://www.powershellgallery.com/items?q=netcore&x=17&y=18)
+
+# Community Content
+
+[Video series on doing local user management on MacOS with PowerShell](https://www.youtube.com/channel/UCZwk9gS1z08iVi-JPyS6a2g)
