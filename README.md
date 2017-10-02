@@ -40,3 +40,9 @@ Home of this README:
 # Community Content
 
 [Video series on doing local user management on MacOS with PowerShell](https://www.youtube.com/channel/UCZwk9gS1z08iVi-JPyS6a2g)
+
+# Raspberry Pi
+
+[PowerShell](https://github.com/PowerShell/PowerShell/tree/master/demos/Raspberry-Pi)
+
+[Visual Studio Code](https://www.hanselman.com/blog/BuildingVisualStudioCodeOnARaspberryPi3.aspx)
