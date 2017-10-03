@@ -7,7 +7,9 @@ Ashley McGlone will live demo writing and running PowerShell scripting on Window
 # Presenter
 Mr. Ashley McGlone
 
-Former Microsoft Premier Field Engineer, now at Tanium
+Former Microsoft Premier Field Engineer
+
+Now Director of Technical Account Management at [Tanium](http://tanium.com)
 
 Twitter: [@GoateePFE](https://twitter.com/GoateePFE)
 
