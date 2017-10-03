@@ -142,7 +142,7 @@ param(
     ((Invoke-WebRequest -Uri "https://swapi.co/api/films/$Movie/").Content | `
         ConvertFrom-Json).opening_crawl.split("`n") |
         ForEach-Object {
-            Start-Sleep -Seconds 1
+            Start-Sleep -Milliseconds 500
             (' '*(($host.ui.rawui.windowsize.width/2)-($_.Length/2)))+$_
         }
 }
