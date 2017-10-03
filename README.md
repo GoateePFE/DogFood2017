@@ -1,4 +1,4 @@
-# DogFood2017
+# [Dog Food Con 2017](http://dogfoodcon.com)
 
 # What?! See PowerShell and Visual Studio Code on Windows, Mac, and Linux
 
@@ -27,7 +27,7 @@ Home of this README:
 
 [Visual Studio Code](https://code.visualstudio.com)
 
-[Walk-through: Getting Started with PowerShell Core on Windows, Mac, and Linux](http://aka.ms/xplatps)
+**[Walk-through: Getting Started with PowerShell Core on Windows, Mac, and Linux](http://aka.ms/xplatps)**
 
 [YouTube Channel for PowerShell & DSC (includes community call recordings)](https://www.youtube.com/channel/UCMhQH-yJlr4_XHkwNunfMog)
 
