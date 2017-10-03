@@ -45,10 +45,4 @@ Home of this README:
 
 [PowerShell](https://github.com/PowerShell/PowerShell/tree/master/demos/Raspberry-Pi)
 
-[Visual Studio Code - Hanselman](https://www.hanselman.com/blog/BuildingVisualStudioCodeOnARaspberryPi3.aspx)
-
-[Visual Studio Code - tanmoysarkar](https://iotguys.wordpress.com/2016/04/17/running-and-configuring-visual-studio-code-on-raspberry-pi-2/)
-
-[Visual Studio Code - GitHub](https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run-from-source)
-
-build started at 14:13PM
+[Visual Studio Code](https://code.headmelted.com/#linux-install-scripts)
