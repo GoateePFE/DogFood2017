@@ -18,8 +18,10 @@ Search results and highlighting
 #>
 
 # Script analyzer
-dir /
+# Problems tab at bottom
+# Lightbulbs in margin
 gps
+$UnusedVariable = 'foo'
 
 
 #Go To Definition / Find All References
