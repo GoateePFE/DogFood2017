@@ -156,40 +156,10 @@ break
 ((Invoke-WebRequest -Uri "https://swapi.co/api").Content | ConvertFrom-Json)
 
 ((Invoke-WebRequest -Uri "https://swapi.co/api/films/").Content | ConvertFrom-Json).results |
-    Sort-Object episode_id |
+    Sort-Object release_date |
     Select-Object title, release_date, director, producer
 
 (Invoke-WebRequest -Uri "https://swapi.co/api/films/?format=wookiee").Content
-
-break
-# Do these from the terminal window
-# If in then VSCode window you might need an
-# extra ENTER keystroke to get the password prompt.
-
-ssh parallels@10.211.55.4
-Enter-PSSession -HostName 10.211.55.4 -UserName parallels -SSHTransport
-
-ssh testadmin@10.211.55.3
-Enter-PSSession -HostName 10.211.55.3 -UserName Goatee10\testadmin -SSHTransport
-
-# In VS Code the password prompt hangs until you press ENTER once
-$s1 = New-PSSession -HostName 10.211.55.4 -UserName parallels -SSHTransport
-Get-PSSession
-Enter-PSSession $s1
-ifconfig
-Exit
-
-# Permission denied ?! sometimes
-$s2 = New-PSSession -HostName 10.211.55.3 -UserName Goatee10\testadmin -SSHTransport
-Get-PSSession
-Enter-PSSession $s2
-ipconfig
-Get-Service
-Exit
-
-Get-PSSession
-
-Get-PSSession | Remove-PSSession
 
 break
 
