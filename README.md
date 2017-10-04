@@ -27,6 +27,8 @@ Home of this README:
 
 [Visual Studio Code](https://code.visualstudio.com)
 
+[Visual Studio Code - Tips and Tricks!](https://github.com/Microsoft/vscode-tips-and-tricks)
+
 **[Walk-through: Getting Started with PowerShell Core on Windows, Mac, and Linux](http://aka.ms/xplatps)**
 
 [YouTube Channel for PowerShell & DSC (includes community call recordings)](https://www.youtube.com/channel/UCMhQH-yJlr4_XHkwNunfMog)
