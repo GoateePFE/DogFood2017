@@ -74,6 +74,7 @@ Brick(
 
 }
 
+break
 
 $b = [brick]::New('RoofTile45','Green','1x2')
 
@@ -84,5 +85,7 @@ $b | Get-Member
 
 $b.Measure()
 $b.Show()
+
+[brick]::New()
 
 [brick]::New().Show()
