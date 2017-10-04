@@ -7,7 +7,7 @@ Could also have a formatter string with the necessary OS-specific placeholders.
 
 Function Test-PSEdition {
 
-    "This is PowerShell $($PSVersionTable.PSEdition) edition on $($PSVersionTable.OS)."
+    "This is PowerShell $($PSVersionTable.PSEdition) edition on $($PSVersionTable.OS).`n"
 
     Switch ($PSVersionTable.PSEdition) {
         'Desktop' {
@@ -17,11 +17,13 @@ Function Test-PSEdition {
             Switch ($null) {
                 {$IsWindows} { 'This is Core PowerShell on Windows'; break }
                 {$IsLinux}   { 'This is Core PowerShell on Linux'  ; break }
-                {$IsOSX}     { 'This is Core PowerShell on MacOS' }
+                {$IsMacOS}   { 'This is Core PowerShell on MacOS' }
             }
         }
     }
 }
+
+break
 
 $Host
 
