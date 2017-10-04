@@ -37,9 +37,10 @@ Get-Alias
 Get-ChildItem
 dir
 ls
+ls -l
 
 Get-Help dir
-man ls
+#man ls
 
 cd /
 cd ~
