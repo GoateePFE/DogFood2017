@@ -41,6 +41,8 @@ Home of this README:
 
 [Jessica Deen - Bash on Windows](http://github.com/jldeen/SVCC-AzureMgmtxplat)
 
+[Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/about)
+
 [Manage Azure and AWS from Windows/Mac/Linux with PowerShell](http://www.powershellgallery.com/items?q=netcore&x=17&y=18)
 
 # Community Content
