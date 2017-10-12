@@ -21,7 +21,7 @@ Home of this README:
 
 [Big PowerShell open source announcement blog post from last year and the famous Satya picture with Windows <3 Linux](https://azure.microsoft.com/en-us/blog/powershell-is-open-sourced-and-is-available-on-linux/)
 
-(PowerShell 6.0 Roadmap: CoreCLR, Backwards Compatibility, and More!)[https://blogs.msdn.microsoft.com/powershell/2017/07/14/powershell-6-0-roadmap-coreclr-backwards-compatibility-and-more/]
+[PowerShell 6.0 Roadmap: CoreCLR, Backwards Compatibility, and More!](https://blogs.msdn.microsoft.com/powershell/2017/07/14/powershell-6-0-roadmap-coreclr-backwards-compatibility-and-more/)
 
 [Install instructions for PowerShell Core on your favorite platform](http://github.com/powershell/powershell)
 
