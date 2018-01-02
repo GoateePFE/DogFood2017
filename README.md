@@ -51,6 +51,6 @@ Home of this README:
 
 # Raspberry Pi
 
-[PowerShell](https://github.com/PowerShell/PowerShell/tree/master/demos/Raspberry-Pi)
+[PowerShell](https://github.com/PowerShell/PowerShell/blob/master/docs/installation/linux.md#raspbian)
 
 [Visual Studio Code](https://code.headmelted.com/#linux-install-scripts)
