@@ -19,6 +19,8 @@ Home of this README:
 
 # Resources
 
+[PowerShell Core 6.0 GA Announcement - Start Here](https://blogs.msdn.microsoft.com/powershell/2018/01/10/powershell-core-6-0-generally-available-ga-and-supported/)
+
 [Big PowerShell open source announcement blog post from last year and the famous Satya picture with Windows <3 Linux](https://azure.microsoft.com/en-us/blog/powershell-is-open-sourced-and-is-available-on-linux/)
 
 [PowerShell 6.0 Roadmap: CoreCLR, Backwards Compatibility, and More!](https://blogs.msdn.microsoft.com/powershell/2017/07/14/powershell-6-0-roadmap-coreclr-backwards-compatibility-and-more/)
