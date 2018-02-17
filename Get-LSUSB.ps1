@@ -12,4 +12,8 @@ Function Get-LSUSB {
 
 lsusb
 
+Get-LSUSB
+
 Get-LSUSB | Sort-Object Name
+
+Get-LSUSB | Sort-Object Bus, Device
