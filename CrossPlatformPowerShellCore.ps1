@@ -56,6 +56,22 @@ cat /etc/passwd |
     ConvertFrom-Csv -Delimiter ':' -Header Name,Passwd,UID,GID,Description,Home,Shell |
     Sort-Object Name | Format-Table
 
+cat /etc/passwd |
+    ConvertFrom-Csv -Delimiter ':' -Header Name,Passwd,UID,GID,Description,Home,Shell |
+    ConvertTo-Json
+
+cat /etc/passwd |
+    ConvertFrom-Csv -Delimiter ':' -Header Name,Passwd,UID,GID,Description,Home,Shell |
+    ConvertTo-HTML
+
+cat /etc/passwd |
+    ConvertFrom-Csv -Delimiter ':' -Header Name,Passwd,UID,GID,Description,Home,Shell |
+    ConvertTo-Xml
+
+cat /etc/passwd |
+    ConvertFrom-Csv -Delimiter ':' -Header Name,Passwd,UID,GID,Description,Home,Shell |
+    ConvertTo-Xml
+
 top  # CTRL+C to exit in VSCode
 Get-Process | Sort-Object CPU -Descending | Select-Object -First 5
 
