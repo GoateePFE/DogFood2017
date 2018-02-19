@@ -53,6 +53,9 @@ cat /etc/passwd
 Get-Content /etc/passwd
 
 cat /etc/passwd |
+    ConvertFrom-Csv -Delimiter ':' -Header Name,Passwd,UID,GID,Description,Home,Shell
+
+cat /etc/passwd |
     ConvertFrom-Csv -Delimiter ':' -Header Name,Passwd,UID,GID,Description,Home,Shell |
     Sort-Object Name | Format-Table
 
@@ -63,10 +66,6 @@ cat /etc/passwd |
 cat /etc/passwd |
     ConvertFrom-Csv -Delimiter ':' -Header Name,Passwd,UID,GID,Description,Home,Shell |
     ConvertTo-HTML
-
-cat /etc/passwd |
-    ConvertFrom-Csv -Delimiter ':' -Header Name,Passwd,UID,GID,Description,Home,Shell |
-    ConvertTo-Xml
 
 cat /etc/passwd |
     ConvertFrom-Csv -Delimiter ':' -Header Name,Passwd,UID,GID,Description,Home,Shell |
