@@ -10,6 +10,8 @@ Function Get-LSUSB {
     }
 }
 
+Get-Command -CommandType Application -Name ls*
+
 lsusb
 
 Get-LSUSB
