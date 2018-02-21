@@ -53,3 +53,4 @@ FavoriteDay = 'Taco Tuesday'
 HeightInCm=4
 }
 
+# Show README.md markdown preview in VSCode
